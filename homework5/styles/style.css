@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+.menu {
+  margin-top: 30px;
+}
+.menu .logo,
+.menu_item {
+  width: 49%;
+  display: inline-block;
+}
+
+.menu_item ul li{
+    list-style: none;
+    display: inline-block;
+  }
+
+.menu_item ul li a {
+  margin-left: 20px;
+  color: gray;
+  text-decoration: none;
+}
+
+.menu_item ul li span a{
+  color: black;
+  font-weight: 900;
+}
+
+.article{
+    margin-top: 30px;
+    display: flex;
+}
+
+
+
+.section_1{
+    display: inline-block;
+    padding-top: 100px;
+}
+
+.section_1 h1, p{
+    margin-bottom: 30px;
+}
+
+.section_1 p{
+    color: gray;
+    padding-bottom: 30px;
+}
+
+.btn_1{
+    width: 200px;
+    background-color: rgb(44, 12, 221);
+    color: white;
+    padding: 15px;
+    border-radius: 55px;
+    text-align: center;
+}
+
+.btn_1 a{
+    text-decoration: none;
+    color: white;
+
+}
+
+.section_2{
+    display: inline-block;
+}
+
+.section_2 img{
+    width: 500px;
+    margin-left: 200px;
+}
+
+.title{
+    margin-top: 50px;
+}
+.title h1{
+	text-align: center;
+    padding-bottom: 15px;
+    margin-bottom: 15px;
+}
+
+.chiziq_1{
+    width: 100px;
+    margin: 15px auto;
+    color: black;
+}
+
+.title p{
+	color: gray;
+	text-align: center;
+}
+
+.services-card-wrapper {
+    list-style: none;
+    margin-top: 50px;
+  }
+
+.card{
+    display: inline-block;
+    border: 2px solid gray;
+	border-radius: 15px;
+	width: 250px;
+	margin: 0 30px 50px 30px;
+    padding: 20px;
+}
+
+.card img{
+    margin-bottom: 20px;
+    width: 90px;
+    height: 90px;
+}
+.card h3, p{
+    margin-bottom: 10px;
+    margin-left: 0;
+}
+
+.card p{
+    color: gray;
+}
+
+.btn_2{
+    width: 200px;
+    margin: 0 auto;
+    margin-bottom: 50px;
+    border-radius: 55px;
+    border: 1px solid rgb(44, 12, 221);
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+.btn_2 a{
+    text-decoration: none;
+    color: rgb(44, 12, 221);
+
+
+}
+
+.section_3{
+    display: flex;
+    padding-top: 20px;
+}
+
+.section_3 .section_3_right, .section_3_left{
+    display: inline-block;
+    width: 49%;
+}
+
+.section_3 .section_3_right img{
+    width: 500px;
+}
+
+.section_3 .section_3_left h1, hr {
+    margin-bottom: 20px;
+}
+
+.section_3 .section_3_left p{
+    margin-bottom: 40px;
+}
+
+.chiziq_2{
+    width: 100px;
+    margin-bottom: 20px;
+    color: black;
+}
+
+.pasga{
+    margin: 80px 0;
+}
+
+.btn_oq{
+    border: 1px solid rgb(44, 12, 221);
+    background-color: white;
+}
+
+.btn_oq a{
+    color: rgb(44, 12, 221);
+}
+
+.fon_img_wraper{
+    margin-bottom: 60px;
+}
+
+.fon_img_wraper img{
+    width: 1220px;
+    margin: 0 auto;
+}
+
+.bottom_card_img p{
+    margin-bottom: 30px;
+}
+
+.bottom_card_img .btn_oq{
+   width: 100px;
+}
+
+.bottom_card_img img{
+    width: 100%;
+    height: 50%;
+}
+
+footer{
+    background: linear-gradient(183.41deg, #67C3F3 -8.57%, #5A98F2 82.96%);
+    padding: 50px;
+
+}
+
+.footer_logo{
+    display: inline-block;
+    width: 30%;
+    color: white;
+}
+
+
+
+.footer_item_wrap{
+    width: 69%;
+    display: inline-block;
+}
+
+.footer_item_wrap .footer_item{
+    line-height: 30px;
+    color: white;
+    margin: 0 60px;
+    display: inline-block;
+    list-style: none;
+}
+
+.footer_item_wrap .footer_item .active{
+    font-weight: 900;
+    font-size: 20px;
+}
